@@ -1,7 +1,7 @@
 blueprint:
   name: "🔔 Notification with Confirm, Dismiss and Timeout"
   description: >
-    ### [🔗 Github Link](https://github.com/samuelthng/t-house-blueprints/blob/main/notifications.yaml)
+    ### Customised Version of [🔗 Github Link](https://github.com/samuelthng/t-house-blueprints/blob/main/notifications.yaml) Modified Notification Device to include Notification Service to send a notification to a group of devices.
 
     [![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Fsamuelthng%2Ft-house-blueprints%2Fblob%2Fmain%2Fnotifications.yaml)
 
@@ -53,14 +53,13 @@ blueprint:
     ### Version 1.1 - *25 March 2023* [🔗](https://community.home-assistant.io/t/notification-with-confirm-dismiss-and-timeout/551552#version-11-25-march-2023-11)
 
   domain: script
-  source_url: https://github.com/samuelthng/t-house-blueprints/blob/main/notifications.yaml
+  source_url: https://github.com/DrShivang/t-house-blueprints/blob/17c25c7fb09fe4d72d94f1d45f4e9220282bb576/notifications.yaml
   input:
     notify_device:
-      name: "📲 Device to notify"
+      name: "📲 Service to notify"
       description: "Device needs to run the official Home Assistant app to receive notifications."
       selector:
-        device:
-          integration: mobile_app
+        text:
     title:
       name: "🏷️ Title"
       description: "The title of the notification.  \n\n`Optional`\n"
