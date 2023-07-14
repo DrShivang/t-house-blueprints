@@ -1,8 +1,7 @@
 blueprint:
   name: "\U0001F514 Actionable Notification with Confirm, Dismiss and Timeout"
   description: "### Customised Version of [\U0001F517 Github Link](https://github.com/samuelthng/t-house-blueprints/blob/main/notifications.yaml)
-    Modified Notification Service to send a notification to a group of devices instead of just one.\n[![Open your Home Assistant instance and show the blueprint
-    import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Fsamuelthng%2Ft-house-blueprints%2Fblob%2Fmain%2Fnotifications.yaml)\n\n---\n###
+    Modified Notification Service to send a notification to a group of devices instead of just one.\n[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2FDrShivang%2Ft-house-blueprints%2Fblob%2Fa46430348713ef0551e354df093158b1a6c7e9e9%2Fnotifications.yaml)\n\n---\n###
     Version: 1.4\n*Forked from Home Assistant's [Confirmable Notifications](https://github.com/home-assistant/core/blob/master/homeassistant/components/script/blueprints/confirmable_notification.yaml)*\n####
     Known Issues:\n  - In some cases, iOS does not seem to play well with newer features.  \n If that happens to you, you can [check out older releases here](https://github.com/samuelthng/t-house-blueprints/releases).\n\n---\n##
     Features:\n  - \U0001F4F2 Sends a notification to a device with companion app installed.\n  - ✅ Confirm button with custom label and actions\n  - ❌ Dismiss
